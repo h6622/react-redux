@@ -10,6 +10,7 @@ const Navbar = () => {
         <Link to="/" className="brand-logo">
           React-Redux
         </Link>
+        <SignedInLinks />
         <SignedOutLinks />
       </div>
     </nav>
